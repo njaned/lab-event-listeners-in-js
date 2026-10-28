@@ -4,10 +4,16 @@ body {
   padding: 20px;
 }
 
+body {
+  transition: background-color 0.25s ease;
+}
+
 button {
   margin: 10px;
   padding: 10px;
   font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 input {
@@ -18,4 +24,14 @@ input {
 
 p {
   font-size: 18px;
+}
+
+#interactionStatus {
+  font-size: 15px;
+  color: #444;
+}
+
+.hint {
+  font-size: 14px;
+  color: #666;
 }
